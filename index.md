@@ -20,7 +20,8 @@ All 43 interaction patterns and 230 instances are available [here](https://githu
 ## RQ3: Component Complexity Analysis
 RQ3 is **how the code of ML components is composed by what kinds of code?**
 It aims to inspect the source code inside every component to characterize the statistics and composition patterns of different code categories, including data processing code, model usage code, etc. 
-All the labeled code snippets are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq3/code_category.xls)
+All the labeled code snippets are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq3/code_category.xls).
+The codebook of all 4 higher-level and 34 inner-level data processing types is available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq3/data_processing_codebook.xlsx).
 
 <!-- func_call meaning, detail data processing type codebook, interaction pattern analysis -->
 <!-- todo: composition pattern details -->
@@ -31,7 +32,7 @@ We calculate the statistical significance between the performance metrics from m
 
 The labeled test cases are [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq4/test_case_label.csv), code coverage data is available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq4/test_case_coverage.csv), and interaction patterns coverage data is available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/component_interaction.xls).
 
-<!-- check test case label number(oracle, stage, granularity and corresponding in rq5) -->
+<!-- TODO: check test case label number(oracle, stage, granularity and corresponding in rq5) -->
 
 
 ## RQ5: Mutation Testing Analysis

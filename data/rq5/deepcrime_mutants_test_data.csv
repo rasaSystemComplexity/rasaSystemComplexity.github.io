@@ -1,0 +1,104 @@
+mutant_id,impactedConfig,impactedInNlu,impactedInCore,policy_f1_deg,intent_classifier_f1_deg,entity_extractor_f1_deg,isKilled
+optimization_OCG_tedpolicy_654_clipnorm_py,none,0,0,0,0,0,0
+optimization_OCG_models_714_clipnorm_py,none,0,0,0,0,0,0
+optimization_OCG_models_428_clipvalue_py,none,0,0,0,0,0,0
+optimization_OCG_dietclassifier_879_clipvalue_py,config_1.yml config_2.yml config_3.yml,1,0,0,0,0,0
+optimization_OCG_dietclassifier_879_clipnorm_py,config_1.yml config_2.yml config_3.yml,1,0,0,0,0,0
+optimization_OCG_models_714_clipvalue_py,none,0,0,0,0,0,0
+optimization_OCG_tedpolicy_654_clipvalue_py,none,0,1,0,0,0,0
+optimization_OCG_models_428_clipnorm_py,none,0,0,0,0,0,0
+optimization_OCH_dietclassifier_879_adadelta_py,config_1.yml config_2.yml config_3.yml,1,0,0,0.634570393,0.895295505,1
+optimization_OCH_tedpolicy_654_adamax_py,none,0,1,0.028146495,0,0,1
+optimization_OCH_models_428_rmsprop_py,none,0,0,0,0,0,0
+optimization_OCH_models_428_adadelta_py,none,0,0,0,0,0,0
+optimization_OCH_models_714_adamax_py,none,0,0,0,0,0,0
+optimization_OCH_models_714_adagrad_py,none,0,0,0,0,0,0
+optimization_OCH_models_714_nadam_py,none,0,0,0,0,0,0
+optimization_OCH_tedpolicy_654_rmsprop_py,none,0,1,0,0,0,0
+optimization_OCH_models_428_sgd_py,none,0,0,0,0,0,0
+optimization_OCH_models_428_nadam_py,none,0,0,0,0,0,0
+optimization_OCH_tedpolicy_654_adadelta_py,none,0,1,0.070468942,0,0,1
+optimization_OCH_dietclassifier_879_adamax_py,config_1.yml config_2.yml config_3.yml,1,0,0,0.019254793,0.036335747,1
+optimization_OCH_models_714_sgd_py,none,0,0,0,0,0,0
+optimization_OCH_dietclassifier_879_nadam_py,config_1.yml config_2.yml config_3.yml,1,0,0,0,0,0
+optimization_OCH_models_714_rmsprop_py,none,0,0,0,0,0,0
+optimization_OCH_tedpolicy_654_adagrad_py,none,0,1,0.070468942,0,0,1
+optimization_OCH_dietclassifier_879_rmsprop_py,config_1.yml config_2.yml config_3.yml,1,0,0,0,0,0
+optimization_OCH_tedpolicy_654_nadam_py,none,0,0,0,0,0,0
+optimization_OCH_models_714_adadelta_py,none,0,0,0,0,0,0
+optimization_OCH_models_428_adamax_py,none,0,0,0,0,0,0
+optimization_OCH_tedpolicy_654_sgd_py,none,0,1,0.028219897,0,0,1
+optimization_OCH_models_428_adagrad_py_py,none,0,0,0,0,0,0
+activation_ACH_layers_415_elu_py,none,0,1,0,0,0,0
+activation_ACH_layers_415_softplus_py,none,0,1,0.064368602,0,0,1
+activation_ACH_transformer_437_sigmoid_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_layers_415_sofmax_py,none,0,1,0.070468942,0,0,1
+activation_ACH_transformer_437_softsign_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_transformer_437_softmax_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_transformer_437_tanh_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_transformer_437_selu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_transformer_437_elu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_layers_415_relu_py,none,0,1,0,0,0,0
+activation_ACH_transformer_437_linear_py,config_1.yml config_2.yml config_3.yml,1,1,0,0.002748563,0,1
+activation_ACH_layers_415_sigmoid_py,none,0,1,0.070468942,0,0,1
+activation_ACH_layers_415_tanh_py,none,0,1,0,0,0,0
+activation_ACH_layers_415_hardsigmoid_py,none,0,1,0.070468942,0,0,1
+activation_ACH_layers_415_selu_py,none,0,1,0,0,0,0
+activation_ACH_layers_415_exponential_py,none,0,1,0.04637999,0,0,1
+activation_ACH_layers_415_linear_py,none,0,0,0,0,0,0
+activation_ACH_transformer_437_relu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ACH_layers_415_softsign_py,none,0,1,0,0,0,0
+activation_ARM_transformer_437_softmax_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_ARM_layers_415_rmactivation_py,none,0,1,0,0,0,0
+activation_AAL_layers_145_relu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_283_selu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_283_elu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.01080304,1
+activation_AAL_layers_145_selu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_145_tanh_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_145_softsign_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_283_linear_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_283_softsign_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.019113201,1
+activation_AAL_layers_283_tanh_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_145_elu_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+activation_AAL_layers_145_linear_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_transformer_531_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_600_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_408_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_458_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_458_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_600_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_transformer_531_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_408_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_141_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RCW_layers_141_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RRW_transformer_531_rmregular_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RRW_layers_141_rmregular_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RRW_layers_458_rmregular_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RRW_layers_408_rmregular_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RRW_layers_600_rmregular_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+regularisation_RAW_layers_283_l1_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.041748298,1
+regularisation_RAW_layers_143_l1l2_py,none,0,0,0,0,0,0
+regularisation_RAW_layers_143_l2_py,none,0,0,0,0,0,0
+regularisation_RAW_layers_143_l1_py,none,0,1,0,0,0,0
+regularisation_RAW_layers_283_l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.035066354,1
+regularisation_RAW_layers_283_l1l2_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.041933605,1
+weight_WCI_layers_145_lecununiform_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_283_lecunnormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_283_glorotnormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_randomnormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0.018255556,1
+weight_WCI_layers_283_orthogonal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_truncatednormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_heuniform_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_283_heuniform_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_lecunnormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_283_henormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_orthogonal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_glorotnormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_283_lecununiform_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WCI_layers_145_henormal_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WAB_rasalayers_855_addbias_py,none,0,1,0,0,0,0
+weight_WAB_transformer_69_addbias_py,config_1.yml config_2.yml config_3.yml,1,1,0,0.005499601,0,1
+weight_WAB_transformer_73_addbias_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WAB_transformer_65_addbias_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0
+weight_WRB_layers_145_removebias_py,none,0,1,0,0,0,0
+weight_WRB_layers_283_removebias_py,config_1.yml config_2.yml config_3.yml,1,1,0,0,0,0

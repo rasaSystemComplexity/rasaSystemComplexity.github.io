@@ -16,7 +16,7 @@ RQ2 is **how ML components interact with other components in Rasa?**
 It aims to summarize a comprehensive taxonomy of component interaction patterns. 
 
 <!-- readme of each RQ to describe the column meaning -->
-All 43 interaction patterns and 230 instances are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/component_interaction.xls).
+All 43 interaction patterns and 230 instances are available [here](https://zenodo.org/record/7844640/files/component_interaction.xls?download=1).
 The `Compo0` and `Comps` column describe the components involved in the interaction instance.
 The `test_coverage` column means: (1) `0`, the instance is not covered in Rasa test cases; (2) `1`, the instance is covered in Rasa test cases; (3) `-1`, the instance should not be considered in test coverage analysis, e.g. components in the interaction instance should not be used together.
 

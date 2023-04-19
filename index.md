@@ -6,7 +6,7 @@ conduct a case study on Rasa 3.0, an industrial dialogue system
 that has been widely adopted by various companies around the
 world. Our goal is to characterize the complexity of such a largescale ML-enabled system and to understand the impact of the
 complexity on testing. Our study reveals practical implications
-for software engineering for ML-enabled systems.Our datas are available at [here](https://zenodo.org/record/7844906#.ZD-w985ByUk)
+for software engineering for ML-enabled systems.Our data are available at [here](https://zenodo.org/record/7844906#.ZD-w985ByUk).
 ## RQ1: System Complexity Analysis
 RQ1 is **how ML componentsare adopted across the modules in Rasa?**
 It aims to identify ML components in Rasa and broadly view them from the perspective of dependent libraries and ML models.
@@ -54,7 +54,7 @@ The `test_case_cmd` field describes the pytest command used to check the mutant,
 The `test_case_res` field describes the execution results of each test case in test case command, including the status and name of all test cases, and error type, error message of killed test cases.
 
 The running results of mutants on test data are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq5/mutmut_mutants_test_data.csv) and [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/blob/main/data/rq5/deepcrime_mutants_test_data.csv).
-The `impactedConfig` column describes the impacted configuration files of the mutant, and all three default configuration files are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/tree/main/data/rq5/config)
+The `impactedConfig` column describes the impacted configuration files of the mutant, and all three default configuration files are available [here](https://github.com/rasaSystemComplexity/rasaSystemComplexity.github.io/tree/main/data/rq5/config).
 The `impactedInNlu` and `impactedInCore` columns describe whether the mutant impact NLU/Policy or not.
 The `isKilled` column describes whether the mutant is killed by test data.
 The `entity_extractor_f1_deg`, `intent_classifier_f1_deg` and `policy_f1_deg` columns describe the performance degration caused by the mutant on EntityExtractor, IntentClassifier and Policy, respectively.
